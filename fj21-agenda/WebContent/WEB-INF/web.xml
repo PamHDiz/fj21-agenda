@@ -15,6 +15,10 @@
   			br.com.caelum.agenda.servlet.OiMundo
   		</servlet-class>
   </servlet>
+  <error-page>
+  	<exception-type>java.lang.Exception</exception-type>
+  	<location>/erro.html</location>
+  </error-page>
   <servlet-mapping>
     <servlet-name>servletOiMundo</servlet-name>
     <url-pattern>/oi</url-pattern>
